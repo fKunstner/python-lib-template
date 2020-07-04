@@ -26,7 +26,6 @@ format:
 	@black . --config=black.toml
 	@echo "Isort"
 	@isort --apply
-	@make format-check
 
 lint:
 	@echo "Black"
