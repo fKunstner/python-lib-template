@@ -150,6 +150,8 @@
             
   <div class="section" id="python-library-template">
 <h1>Python library template<a class="headerlink" href="#python-library-template" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://fkunstner.github.io/python-lib-template/html/">Documentation</a> |
+<a class="reference external" href="https://github.com/fKunstner/python-lib-template">Github repo</a></p>
 <p>A python library template with a few pre-configured tools.
 For the minimimum required changes, copy the folder structure,
 edit <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> for the name of the library,
@@ -191,16 +193,18 @@ the template has a <code class="docutils literal notranslate"><span class="pre">
 following <a class="reference external" href="https://keepachangelog.com/">Keep a changelog</a>
 and <a class="reference external" href="https://semver.org/">Semantic versioning</a>.</p>
 </div>
-<div class="section" id="documentation">
-<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id3">
+<h2>Documentation<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>The documentation is generated with <a class="reference external" href="https://www.sphinx-doc.org/">Sphinx</a>,
+configured in <code class="docutils literal notranslate"><span class="pre">docs_src/conf.py</span></code>, and uses
+<a class="reference external" href="https://github.com/sphinx-gallery/sphinx-gallery">Sphinx-gallery</a>
+to generate notebook-style examples from source code in <code class="docutils literal notranslate"><span class="pre">examples/</span></code>.</p>
 <p>The source of the is in <code class="docutils literal notranslate"><span class="pre">docs_src/</span></code>
 and gets compiled to <code class="docutils literal notranslate"><span class="pre">docs/</span></code>
 with <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">docs</span></code>
 for easy publication with <a class="reference external" href="https://pages.github.com/">Github pages</a>.
-The documentation is generated with <a class="reference external" href="https://www.sphinx-doc.org/">Sphinx</a>,
-configured in <code class="docutils literal notranslate"><span class="pre">docs_src/conf.py</span></code>, and uses
-<a class="reference external" href="https://github.com/sphinx-gallery/sphinx-gallery">Sphinx-gallery</a>
-to generate notebook-style examples from source code in <code class="docutils literal notranslate"><span class="pre">examples/</span></code>.</p>
+If you are not using Github pages, you should <code class="docutils literal notranslate"><span class="pre">.gitignore</span></code> the
+documentation output.</p>
 <p>A <a class="reference external" href="http://readthedocs.io/">ReadTheDocs</a> config file is also present,
 in <code class="docutils literal notranslate"><span class="pre">.readthedocs.yml</span></code>, if you wish to publish there.
 RTD uses its theme by default, whereas a local run of
