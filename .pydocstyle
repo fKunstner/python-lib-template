@@ -1,0 +1,4 @@
+[pydocstyle]
+convention = google
+match = .*\.py
+match_dir='[^\.][^(docs)][^(docs_src)].*'

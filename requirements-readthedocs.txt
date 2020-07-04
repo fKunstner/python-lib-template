@@ -1,0 +1,2 @@
+# Requirements file for deployment on readthedocs.io with Sphinx-gallery
+sphinx-gallery
