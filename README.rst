@@ -1,6 +1,9 @@
 Python library template
 ================================================================================
 
+`Documentation <https://fkunstner.github.io/python-lib-template/html/>`_ |
+`Github repo <https://github.com/fKunstner/python-lib-template>`_
+
 A python library template with a few pre-configured tools.
 For the minimimum required changes, copy the folder structure,
 edit ``setup.py`` for the name of the library,
