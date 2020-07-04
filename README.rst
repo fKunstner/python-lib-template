@@ -1,7 +1,7 @@
 Python library template
 ================================================================================
 
-`Documentation <https://fkunstner.github.io/python-lib-template/html/>`_ |
+`Documentation <https://fdk-python-lib-template.readthedocs.io/en/latest/>`_ |
 `Github repo <https://github.com/fKunstner/python-lib-template>`_
 
 A python library template with a few pre-configured tools.
